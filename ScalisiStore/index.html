@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scalisi Skincare</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="build/css/styles.css">
+    <script src="https://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#homeCarousel').carousel({
+            interval: 4000,
+        });
+
+        $(".prodList").mCustomScrollbar({
+            axis: "x",
+            theme: "dark-thick",
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <ul>
+                <li><a href="#">GIVE $10, GET $10</a></li>
+                <li><a href="#">FREE SHIPPING AND FREE RETURNS ON ORDERS OVER $50+</a></li>
+                <li><a href="#">MY ACCOUNT</a></li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="assets/logo.PNG" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">BOB'S CREAM <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">SCALISI SKINCARE</a></li>
+                        <li><a href="#">TINTED</a></li>
+                        <li><a class="navbar-brand" href="#"><img src="assets/logo.PNG" alt=""></a></li>
+                        <li><a href="#">REVIEW</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div id="homeCarousel" class="carousel slide">
+        <!-- Items -->
+        <div class="carousel-inner">
+            <!-- Item 1 -->
+            <div class="item active">
+                <img src="assets/Slider1.png" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="heading">
+                            <h1>USE IT TONIGHT,</h1>
+                            <h1> FEEL IT TOMORROW.</h1>
+                        </div>
+                        <p>Scalisi Skincare sits at the interaction of Science, Beauty, and Natural. Our products are highly effective, luxurious, and made for me and women who want to look and live well. Get cutting edge technology, natural anti aging skincare that feels beautiful and works on all skin types, even sensitive skin.</p>
+                        <a href="#" class="btn btn-lg">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="item">
+                <img src="assets/Slider2.png" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="heading">
+                            <h1>USE IT TONIGHT,</h1>
+                            <h1> FEEL IT TOMORROW.</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur voluptatibus repellat pariatur beatae facere quia distinctio cumque culpa fuga quidem inventore dolore, nemo, nisi dolor, atque suscipit id. Numquam quam sequi aliquam, facere excepturi perferendis consequuntur illo magnam, perspiciatis corporis incidunt repellat error libero placeat ratione pariatur mollitia quaerat.</p>
+                        <a href="#" class="btn btn-lg">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item">
+                <img src="assets/Slider3.png" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="heading">
+                            <h1>USE IT TONIGHT,</h1>
+                            <h1> FEEL IT TOMORROW.</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias a corrupti culpa reprehenderit dolorem qui magnam, saepe praesentium quibusdam, debitis laudantium illo aliquid odit hic, enim ducimus molestiae fuga laboriosam consectetur iure. Sunt sit nam temporibus dolore quibusdam odio, provident officiis aperiam mollitia neque rem minus quo modi impedit vero!</p>
+                        <a href="#" class="btn btn-lg">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#homeCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#homeCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+         </a>
+    </div>
+    <section class="underCarousel">
+        <div class="freeFrom">
+            <h2>100% FREE FROM</h2>
+        </div>
+        <div class="freeFromList">
+            <ul>
+                <li>Parabens</li>
+                <li class="bullet">&bull;</li>
+                <li>Phthalates</li>
+                <li class="bullet">&bull;</li>
+                <li>Artifical Fragrance</li>
+                <li class="bullet">&bull;</li>
+                <li>Silicone</li>
+                <li class="bullet">&bull;</li>
+                <li>Synthetic Oil</li>
+                <li class="bullet">&bull;</li>
+                <li>Animal Testing</li>
+            </ul>
+        </div>
+    </section>
+    <section class="healingTech">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1">
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <div class="towelGirl">
+                                <h1>OUR BREAKTHROUGH WOUND HEALING TECHNOLOGY</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, dolorem in corrupti, rerum explicabo quisquam, unde enim qui nulla accusamus, necessitatibus molestiae.</p>
+                                <a href="#" class="btn btn-lg">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div>
+                                <img src="assets/towelGirl.PNG" alt="towel girl" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flowers">
+                        <img src="assets/flowers.PNG" alt="flowers" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1">
+                    <img src="assets/products.PNG" alt="products" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="productSlider">
+        <h1>OUR PREMIUM PRODUCTS</h1>
+        <div class="prodList">
+            <ul class="list-inline">
+                <li class="prodItem"><a href="#"><img src="assets/prod1.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod2.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod3.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod4.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod1.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod2.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod3.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod4.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod1.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod2.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod3.png"></a></li>
+                <li class="prodItem"><a href="#"><img src="assets/prod4.png"></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="customerResponse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/mirrorGirl.PNG" class="img-responsive">
+                </div>
+                <div class="col-lg-6 slider">
+                    <h1>WHAT OUR CUSTOMERS THINK.</h1>
+                    <div id="testimonialSlider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="carousel-content">
+                                    <p class="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                                    <p>"If I go without one day, I feel it, love it."</p>
+                                    <p>-Katherine T</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <p class="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, aliquid neque voluptates."</p>
+                                    <p>-John K</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <p class="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, neque."</p>
+                                    <p>-Sarah J</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <a class="left carousel-control" href="#testimonialSlider" data-slide="prev">
+                            <span class="glyphicon glyphicon-arrow-left"></span>
+                        </a>
+                        <p>READ MORE REVIEWS</p>
+                        <a class="right carousel-control" href="#testimonialSlider" data-slide="next">
+                            <span class="glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="whyItWorks">
+        <div class="container-fluid">
+            <h1>WHY SCALISI SKINCARE WORKS?</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="list">
+                        <ul>
+                            <li class="science">
+                                <h3>Science</h3>
+                                <p>Probiotics strengthen the microbiome, your skin's natural defense barrier. With a strong, balanced microbiome, Probiotics strengthen the microbiome, your skin's natural defense barrier. With a strong, balanced</p>
+                            </li>
+                            <li class="beauty">
+                                <h3>Beauty</h3>
+                                <p>Probiotics strengthen the microbiome, your skin's natural defense barrier. With a strong, balanced microbiome, Probiotics strengthen the microbiome, your skin's natural defense barrier. With a strong, balanced</p>
+                            </li>
+                            <li class="nature">
+                                <h3>Nature</h3>
+                                <p>Probiotics strengthen the microbiome, your skin's natural defense barrier. With a strong, balanced microbiome, Probiotics strengthen the microbiome, your skin's natural defense barrier. With a strong, balanced</p>
+                            </li>
+                            <li class="learnMore">
+                                <a href="#" class="btn btn-lg">LEARN MORE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="meetBoxes">
+                        <div class="meetJill">
+                            <h3>Meet the Creator of Scalisi Skincare</h3>
+                            <a href="#" class="btn btn-lg">MEET JILL</a>
+                        </div>
+                        <div class="meetBob">
+                            <h3>Meet the Creator of Bob's Cream</h3>
+                            <a href="#" class="btn btn-lg">MEET BOB</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="profilePics">
+                        <img src="assets/jill.PNG" alt="Jill">
+                        <img src="assets/Bob.PNG" alt="Bob">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="youtube">
+                        <iframe width="750" height="425" src="https://www.youtube.com/embed/pI1mI0T6gOI?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1">
+                    <div class="different">
+                        <h1>WHAT MAKES US DIFFERENT?</h1>
+                        <p>Scalisi Skincare sits at the interaction of Science, Beauty, and Natural. Our products are highly effective, luxurious, and made, for me and women wo want to look and live well. Get cutting edge technology, natural anti aging skincare that feels beautiful and works on all skin types, even sensitive skin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="picAndButton">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-1">
+                    <div class="productSetImage">
+                        <img src="assets/productSet.PNG" alt="product set" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="checkUsOut">
+                        <a href="#" class="btn btn-lg">CHECK US OUT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="allure">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/beach.PNG" alt="beach" class="img-responsive">
+                    <h2>SHOP OUR BEST SELLERS</h2>
+                    <p>Probiotics strengthen the microbiome,</p>
+                    <a href="#">SHOP NOW</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/allure.PNG" alt="allure" class="img-responsive">
+                    <div id="allureSlider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="carousel-content">
+                                    <p>"It literally pulls in moisture from the air, like a superdew."</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, aliquid neque voluptates."</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, neque."</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloremque ex, pariatur."</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores alias repellat eum."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <a class="left carousel-control" href="#allureSlider" data-slide="prev">
+                            <span class="glyphicon glyphicon-arrow-left"></span>
+                        </a>
+                            <ol class="carousel-indicators">
+                                <li data-target="#allureSlider" data-slide-to="0" class="active"></li>
+                                <li data-target="#allureSlider" data-slide-to="1"></li>
+                                <li data-target="#allureSlider" data-slide-to="2"></li>
+                                <li data-target="#allureSlider" data-slide-to="3"></li>
+                                <li data-target="#allureSlider" data-slide-to="4"></li>
+                            </ol>
+                            <a class="right carousel-control" href="#allureSlider" data-slide="next">
+                            <span class="glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                        </div>
+                    </div>
+                    <img src="assets/bags.PNG" alt="bags" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="scalisiSkincare">
+        <h1>@SCALISISKINCARE</h1>
+        <img src="assets/pic1.PNG" alt="pic1" class="higher img-responsive">
+        <img src="assets/pic2.PNG" alt="pic2" class="lower img-responsive">
+        <img src="assets/pic3.PNG" alt="pic3" class="higher img-responsive">
+        <img src="assets/pic4.PNG" alt="pic4" class="lower img-responsive">
+    </section>
+    <section class="contact">
+        <div class="row">
+            <div class="col-lg-4">
+                <h1>BE THE FIRST TO KNOW</h1>
+            </div>
+            <div class="col-lg-4">
+                <p>Receive the latest news, exclusive offers, and more</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="   Enter your email address">
+                    <span class="input-group-btn">
+                        <button class="btn" type="button">SUBMIT</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-lg-5">
+                <ul>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">SPECIAL OFFERS</a></li>
+                    <li><a href="#">BLOGS</a><br></li>
+                    <li><a href="#">SKINCARE FINDER</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <img src="assets/footerLogo.PNG" alt="logo" class="img-responsive">
+            </div>
+            <div class="col-lg-5">
+                <ul>
+                    <li><a href="#">REFER FRIENDS</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">CONTACT US</a><br></li>
+                    <li><a href="#">STORE LOCATOR</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="socialMedia">
+            <ul>
+                <li>HELP@SCALISI.COM</li>
+                <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li>1 800 965-0075</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p> &copy; SCALISI COSMETICS LLC. | All Rights Reserved | <a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

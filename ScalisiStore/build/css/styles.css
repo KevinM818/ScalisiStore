@@ -1,0 +1,402 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden; }
+
+header .topbar {
+  background: #7C8DC0;
+  padding: 5px 150px; }
+  header .topbar ul {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    header .topbar ul li a {
+      text-decoration: none;
+      color: white; }
+
+header .navbar {
+  background: white; }
+  header .navbar .navbar-header a {
+    display: none; }
+  header .navbar .navbar-nav li a {
+    color: black; }
+
+header nav {
+  padding-bottom: 70px; }
+  header nav ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    header nav ul li {
+      position: relative;
+      top: 70px; }
+      header nav ul li a {
+        font-size: 1.5em;
+        text-decoration: none; }
+        header nav ul li a img {
+          position: relative;
+          padding: 0;
+          top: -65px; }
+        header nav ul li a i {
+          position: relative;
+          top: -10px;
+          color: #7C8DC0; }
+
+#homeCarousel {
+  padding: 10px 0 90px 0; }
+  #homeCarousel .carousel-control .glyphicon-chevron-left {
+    color: black;
+    margin-left: -80px; }
+  #homeCarousel .carousel-control .glyphicon-chevron-right {
+    color: black;
+    margin-right: -80px; }
+
+.carousel-caption {
+  position: absolute;
+  left: auto;
+  right: auto;
+  padding-left: 30px;
+  padding-right: 10%;
+  text-align: left;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  bottom: 0;
+  right: 0; }
+  .carousel-caption .heading {
+    padding: 5% 0; }
+    .carousel-caption .heading h1 {
+      font-size: 4em; }
+  .carousel-caption p {
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 20px; }
+  .carousel-caption a {
+    border: 3px solid black;
+    border-radius: 0;
+    color: black;
+    padding: 20px 70px; }
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none; }
+
+.underCarousel {
+  padding: 70px 100px;
+  background: #F2F2F2; }
+  .underCarousel .freeFrom {
+    display: inline-block; }
+    .underCarousel .freeFrom h2 {
+      float: left;
+      font-family: calibri;
+      font-weight: bold;
+      color: #7C8DC0; }
+  .underCarousel .freeFromList {
+    display: inline-block;
+    float: right; }
+    .underCarousel .freeFromList ul li {
+      display: inline-block;
+      font-size: 1.25em;
+      color: #7C8DC0;
+      list-style: none;
+      padding: 15px 20px 0; }
+    .underCarousel .freeFromList ul .bullet {
+      font-weight: bold;
+      font-size: 2em;
+      color: black; }
+
+.healingTech {
+  padding: 60px 0; }
+
+.healingTech .container-fluid .row .col-lg-5 .row .col-xs-8 .towelGirl h1 {
+  font-weight: bold; }
+
+.healingTech .container-fluid .row .col-lg-5 .row .col-xs-8 .towelGirl p {
+  font-size: 1em;
+  line-height: 2em;
+  padding-bottom: 20px; }
+
+.healingTech .container-fluid .row .col-lg-5 .row .col-xs-8 .towelGirl a {
+  border: 3px solid black;
+  border-radius: 0;
+  color: black;
+  padding: 20px 70px;
+  margin-bottom: 70px; }
+
+.productSlider {
+  padding: 0 0 100px 0; }
+  .productSlider h1 {
+    text-align: center;
+    padding-bottom: 50px; }
+  .productSlider .prodList {
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 82%; }
+    .productSlider .prodList .prodItem {
+      padding: 0 30px; }
+    .productSlider .prodList .list-inline {
+      white-space: nowrap; }
+
+#mCSB_1_scrollbar_horizontal .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #4A60A2;
+  height: 70%;
+  border-radius: 5px; }
+
+#mCSB_1_scrollbar_horizontal .mCSB_draggerContainer .mCSB_draggerRail {
+  background-color: #F2F2F2;
+  height: 70%;
+  border-radius: 5px; }
+
+.customerResponse {
+  padding: 30px 100px; }
+  .customerResponse h1 {
+    text-align: center;
+    padding-bottom: 10%; }
+  .customerResponse .container-fluid .slider .carousel .item {
+    height: 280px; }
+  .customerResponse .container-fluid .row .col-lg-6 .carousel .carousel-inner .stars {
+    font-size: 2em;
+    text-align: center;
+    color: #F7D423;
+    padding: 30px; }
+  .customerResponse .container-fluid .row .col-lg-6 .carousel .carousel-inner p {
+    text-align: center;
+    font-size: 1.5em; }
+  .customerResponse .container-fluid .row .col-lg-6 .carousel-control .glyphicon-arrow-left {
+    color: black;
+    position: relative;
+    top: 425px; }
+  .customerResponse .container-fluid .row .col-lg-6 .carousel-control .glyphicon-arrow-right {
+    color: black;
+    position: relative;
+    top: 425px; }
+  .customerResponse p {
+    font-size: 1.25em;
+    vertical-align: bottom;
+    text-align: center; }
+
+.whyItWorks {
+  padding: 100px 120px;
+  height: auto; }
+  .whyItWorks h1 {
+    font-weight: bold;
+    font-size: 3em; }
+  .whyItWorks .list ul {
+    padding-left: 90px; }
+    .whyItWorks .list ul .science {
+      list-style-image: url("images/science.PNG"); }
+    .whyItWorks .list ul .beauty {
+      list-style-image: url("images/beauty.PNG"); }
+    .whyItWorks .list ul .nature {
+      list-style-image: url("images/nature.PNG"); }
+    .whyItWorks .list ul .learnMore {
+      list-style: none; }
+      .whyItWorks .list ul .learnMore a {
+        text-decoration: none;
+        border: 3px solid black;
+        border-radius: 0;
+        color: black;
+        padding: 10px 35px;
+        margin-top: 75px; }
+  .whyItWorks .list ul h3 {
+    padding: 0 0 30px;
+    font-size: 2em; }
+  .whyItWorks .list ul p {
+    font-size: 1.25em;
+    line-height: 2.5em; }
+  .whyItWorks .meetBoxes {
+    margin-left: 10%; }
+    .whyItWorks .meetBoxes .meetJill,
+    .whyItWorks .meetBoxes .meetBob {
+      width: 235px;
+      margin: 100px 50px;
+      border: 3px solid black;
+      text-align: center; }
+      .whyItWorks .meetBoxes .meetJill h3,
+      .whyItWorks .meetBoxes .meetBob h3 {
+        padding: 50px 15px 30px;
+        line-height: 2em; }
+      .whyItWorks .meetBoxes .meetJill a,
+      .whyItWorks .meetBoxes .meetBob a {
+        text-decoration: none;
+        border: 3px solid black;
+        border-radius: 0;
+        color: black;
+        padding: 10px 35px;
+        margin-bottom: 60px; }
+  .whyItWorks .profilePics img {
+    padding-top: 30px; }
+
+.video {
+  padding: 100px 120px;
+  background: #F2F2F2; }
+  .video .container-fluid .row .col-lg-5 .different h1 {
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 1.5em; }
+  .video .container-fluid .row .col-lg-5 .different p {
+    font-size: 1.25em;
+    line-height: 2em; }
+
+.picAndButton {
+  padding: 100px 120px; }
+  .picAndButton .checkUsOut {
+    text-align: center;
+    position: relative;
+    top: 600px; }
+    .picAndButton .checkUsOut a {
+      color: #4A60A2;
+      text-decoration: none;
+      border: 2px solid #4A60A2;
+      border-radius: 0;
+      padding: 20px 55px; }
+
+.allure {
+  padding: 100px 120px; }
+  .allure .container-fluid .row .col-lg-6 h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 50px 400px 70px 30px;
+    line-height: 1.25em; }
+  .allure .container-fluid .row .col-lg-6 p {
+    margin: 50px 400px 20px 30px; }
+  .allure .container-fluid .row .col-lg-6 a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: underline; }
+  .allure .container-fluid .row .col-lg-6 img {
+    margin: 0 auto; }
+  .allure .container-fluid .row .col-lg-6 #allureSlider {
+    height: 300px; }
+    .allure .container-fluid .row .col-lg-6 #allureSlider .carousel-inner .item .carousel-content p {
+      text-align: center;
+      margin: auto;
+      width: 300px;
+      padding-top: 50px; }
+    .allure .container-fluid .row .col-lg-6 #allureSlider .controls .carousel-indicators li {
+      position: relative;
+      top: -100px;
+      border: 1px solid grey; }
+    .allure .container-fluid .row .col-lg-6 #allureSlider .controls .carousel-indicators .active {
+      background: grey; }
+    .allure .container-fluid .row .col-lg-6 #allureSlider .controls .carousel-control .glyphicon-arrow-left {
+      color: black;
+      position: relative;
+      top: 146px;
+      right: -160px; }
+    .allure .container-fluid .row .col-lg-6 #allureSlider .controls .carousel-control .glyphicon-arrow-right {
+      color: black;
+      position: relative;
+      top: 147px;
+      left: -190px; }
+
+.scalisiSkincare {
+  padding: 0 120px; }
+  .scalisiSkincare h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10em;
+    color: #F2F2F2; }
+  .scalisiSkincare img {
+    display: inline-block;
+    margin-right: 3%; }
+  .scalisiSkincare .higher {
+    position: relative;
+    top: -70px; }
+  .scalisiSkincare .lower {
+    position: relative;
+    top: 50px; }
+
+.contact {
+  margin-top: 200px;
+  padding: 70px 100px;
+  background: #F2F2F2; }
+  .contact h1 {
+    color: #4A60A2;
+    text-align: left; }
+  .contact p {
+    font-size: 1.25em;
+    color: #4A60A2;
+    text-align: center;
+    padding-top: 35px; }
+  .contact .input-group {
+    float: right;
+    margin-top: 15px; }
+    .contact .input-group ::-webkit-input-placeholder {
+      /* Chrome */
+      color: #4A60A2; }
+    .contact .input-group :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #4A60A2; }
+    .contact .input-group ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #4A60A2;
+      opacity: 1; }
+    .contact .input-group :-moz-placeholder {
+      /* Firefox 4 - 18 */
+      color: #4A60A2;
+      opacity: 1; }
+    .contact .input-group input {
+      padding: 31px 0;
+      color: #4A60A2;
+      font-size: 1.5em;
+      border-radius: 0;
+      border: 1px solid white; }
+    .contact .input-group span button {
+      padding: 20px 30px;
+      background: white;
+      color: #4A60A2;
+      border-radius: 0;
+      margin-top: 2px; }
+
+footer {
+  padding-top: 100px; }
+  footer ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 50px; }
+    footer ul li {
+      display: inline-block;
+      padding: 30px; }
+      footer ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em; }
+  footer .row .col-lg-2 img {
+    margin: 0 auto; }
+  footer .socialMedia ul li {
+    font-size: 1.75em;
+    padding: 15px; }
+    footer .socialMedia ul li i {
+      color: #4A60A2;
+      font-size: 1.5em; }
+  footer .copyright {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 50px; }
+    footer .copyright a {
+      text-decoration: none;
+      color: black; }
+
+@media screen and (max-width: 767px) {
+  header .topbar {
+    display: none; }
+  header .navbar .navbar-header a {
+    display: inline-block; }
+  header nav ul {
+    display: block; }
+    header nav ul li .navbar-brand {
+      display: none; } }
